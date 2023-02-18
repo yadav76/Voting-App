@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="delay_time; URL=new_website_url" />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+            <h3>Vote Page</h3>
+        <!-- <div class="alert">Your message has been sent</div> -->
+            <form id="contactForm">
+
+                <div class="span5">
+                    <span class="chb">
+                    <input type="radio" id="candidate1" name="editList" value="candidate1">candidate 1
+                        <br>
+                    <input type="radio" id="candidate2" name="editList" value="candidate2">Candidate 2
+                        <br>
+                    <input type="radio" id="candidate3" name="editList" value="candidate3">Candidate 3
+
+                    <br>
+                    <input type="radio" id="candidate4" name="editList" value="candidate4">Candidate 4
+                        </span>
+                        </div>
+              <p class="full">
+                <button type="submit" onclick="displayRadioValue()">Vote</button>
+              </p>
+              <!-- <p class="full">
+                <button type="submit" onclick="back()">Login Page</button>
+              </p> -->
+              
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

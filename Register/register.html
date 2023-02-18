@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+            <h3>Register Page</h3>
+            <div class="alert">Your message has been sent</div>
+            <form id="contactForm">
+            <p>
+                <label>USERNAME</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+            <p>
+                <label>PASSWORD</label>
+                <input type="password" name="password" id="password" password required>
+            </p>
+
+            <p>
+                <label>Email Address</label>
+                <input type="email" name="email" id="email" required>
+              </p>
+              <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone" id="phone">
+              </p>
+            
+            <p class="full">
+                <button type="submit">Login</button>
+              </p>
+              <!-- <p class="full">
+                <button type="submit">Register</button>
+              </p> -->
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

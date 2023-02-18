@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+
+    <style>
+        #cand1, #cand2, #cand3, #cand4{
+            color: black;
+            font-size: 16px;
+        } 
+        label{
+            color: rgb(134, 22, 22);
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+            <h3>Admin Login Page</h3>
+        <!-- <div class="alert">Your message has been sent</div> -->
+            <form id="contactForm">
+            <p>
+                <label>Candidate 1 Vote Count</label>
+                <p style="display: block;" id="cand1"></p>
+                <br>
+                <!-- <input type="text" name="name" id="name" required> -->
+            </p>
+            <p>
+                <label>Candidate 2 Vote Count</label>
+                <p  id="cand2"></p>
+                <br>
+                <!-- <input type="text" name="company" id="company"> -->
+            </p>
+
+            <p>
+                <label>Candidate 3 Vote count</label>
+                <p id="cand3"></p>
+                <br>
+                <!-- <input type="text" name="name" id="name" required> -->
+            </p>
+            <p>
+                <label>Candidate 4 Vote Count</label>
+                <p id="cand4"></p>
+                <!-- <input type="text" name="company" id="company"> -->
+            </p>
+            
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
