@@ -89,7 +89,7 @@ function showAdmin() {
 
 function adminLogin() {
 
-  window.location.href = "/Admin/admin.html";
+  window.location.href = "Admin/admin.html";
     // window.location = false;
     flag = false;
     return;
@@ -150,7 +150,7 @@ function goToRegisterPage() {
 
 
   function myFunc() {
-    window.location.href = "/Vote/vote.html";
+    window.location.href = "Vote/vote.html";
     // window.location = false;
     flag = false;
     return;
@@ -158,7 +158,7 @@ function goToRegisterPage() {
 
 
 function registerPage() {
-    window.location.href = "/Register/register.html";
+    window.location.href = "Register/register.html";
     // window.location = false;
     flag = false;
     return;
